@@ -1,0 +1,26 @@
+h3 {
+  font-size: x-large;
+  margin-bottom: 1rem;
+}
+
+.skill__content {
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr;
+  gap: 1rem;
+}
+
+.skill__article {
+  background: var(--color-bg-variant);
+  padding: 2rem;
+  border-radius: var(--border-radius);
+}
+
+.skill__content-logo {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  margin-top: 2rem;
+}
+
+.skill__content-logo article {
+  margin-top: 1.5rem;
+}
