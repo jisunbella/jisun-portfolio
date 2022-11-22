@@ -1,8 +1,5 @@
 .about__content {
-  /* display: grid; */
-  /* grid-template-columns: 1fr 1fr; */
   gap: 0.7rem;
-  /* background: var(--color-bg-variant); */
 }
 
 .about__me {
@@ -25,7 +22,7 @@
 .about__career {
   display: block;
   padding-top: 2rem;
-  width: 60%;
+  width: 70%;
   margin: 0 auto;
 }
 
@@ -40,20 +37,20 @@
 
 .about__career-img {
   display: inline-block;
-
 }
 
 .about__career-logo {
   width: 100px;
-  /* margin: 0 auto; */
   cursor: pointer;
-  display: inline-block;
-  vertical-align: middle;
+  display: block;
+  margin-top: 10%;
 }
 
 .about__career-period {
   font-size: small;
-  margin-left: 2rem;
+  text-align: right;
+  margin-bottom: 0.5rem;
+  /* margin-left: 2rem; */
 }
 
 

@@ -47,7 +47,7 @@ const About = () => {
                     <img src={img} alt={alt} className='about__career-logo' title='Go to website' />
                   </a>
                   <div className='about__career-desc'>
-                    <small className='about__career-period'>{period}</small>
+                    <p className='about__career-period'>{period}</p>
                     <ul>
                       <li>{desc1}</li>
                       <li>{desc2}</li>
