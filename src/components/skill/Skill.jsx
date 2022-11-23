@@ -132,6 +132,20 @@ const Skill = () => {
               </div>
             </article>
             <article className="skill__details">
+              <AiFillGithub className='skill__details-icon' />
+              <div>
+                <h4>Azure DevOps</h4>
+                <small className='text-light'>Intermediate</small>
+              </div>
+            </article>
+            <article className="skill__details">
+              <AiFillGithub className='skill__details-icon' />
+              <div>
+                <h4>Swagger</h4>
+                <small className='text-light'>Intermediate</small>
+              </div>
+            </article>
+            <article className="skill__details">
               <RiFileExcel2Line className='skill__details-icon' />
               <div>
                 <h4>MS Office</h4>

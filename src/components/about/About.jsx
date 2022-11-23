@@ -13,7 +13,7 @@ const data = [
     url: 'http://www.feelanet.com/',
     period: 'AUG 2019 - MAY 2022 | Seoul, South Korea',
     desc1: 'Worked at Feelanet as a junior web developer for 3 years.',
-    desc2: 'Joined more than 6 projects/solutions using HTML, CSS, JavaScript, Vue.js, C#, .Net, and SQL Server.'
+    desc2: 'Developed and contributed to 6+ projects for 3 years. I have full stack development experience with JavaScript, Vue.js, Nuxt.js, and ASP.NET.'
   },
   {
     id: 2,

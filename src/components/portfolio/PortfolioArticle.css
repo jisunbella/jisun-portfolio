@@ -1,7 +1,7 @@
 
 .portfolio__contents {
   display: grid;
-  grid-template-columns: repeat(3, 1fr);
+  grid-template-columns: repeat(2, 1fr);
   gap: 1rem;
   margin-top: 2rem;
 }
@@ -33,7 +33,7 @@
 }
 
 .portfolio__content:hover {
-  background: var(--color-primary);
+  background: #434343;
   /* opacity: 0.8; */
   transform: translateY(0px);
   cursor: pointer;
