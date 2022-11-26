@@ -16,7 +16,7 @@ const Contact = () => {
         </div>
         <div>
           <AiOutlinePhone />
-          <div>+61 0466 117 227</div>
+          <div>0466 117 227</div>
         </div>
         <div>
           <RiLinkedinBoxFill />

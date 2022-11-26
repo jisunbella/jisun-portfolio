@@ -12,17 +12,17 @@
 }
 
 :root {
-  --color-bg: #fff;
-  --color-bg-variant: #ebebeb;
-  --color-primary: #4e5be8;
+  --color-bg: #f3f2f0;
+  --color-bg-variant: #ffffff;
+  --color-primary: #3595e3;
   --color-font: #000;
   --color-font-variant: #767676;
   --color-btn: #000;
-  --color-btn-hover: rgb(156, 156, 156);
+  --color-btn-hover: rgb(0, 0, 0);
   --color-white: #fff;
   --color-black: rgb(0, 0, 0);
 
-  --border-radius: 1rem;
+  /* --border-radius: 1rem; */
   --border-radius-btn: 1.5rem;
 
   --box-shadow: 2px 2px 6px #c0c0c0a2;
@@ -47,7 +47,7 @@ body {
 
 section {
   /* height: 100vh; */
-  padding: 5rem 4rem;
+  padding: 4rem;
 }
 
 h1,
@@ -58,11 +58,11 @@ h4 {
 }
 
 h1 {
-  font-size: 4rem;
+  font-size: 5vw;
 }
 
 h2 {
-  font-size: 3rem;
+  font-size: 4vw;
 }
 
 h3 {
@@ -93,18 +93,18 @@ a:hover {
 }
 
 .title {
-  /* text-align: left; */
+  text-align: left;
   margin-bottom: 3rem;
   font-weight: 600;
 }
 
 .btn {
-  padding: 0.7rem 3rem;
-  border: 2px solid transparent;
-  border-radius: var(--border-radius-btn);
+  padding: 0.7rem 3vw;
+  border: 2px solid var(--color-black);
+  /* border-radius: var(--border-radius-btn); */
   cursor: pointer;
-  color: var(--color-white);
-  background: var(--color-btn);
+  color: var(--color-black);
+  background: transparent;
   margin: 0.3rem;
 }
 
