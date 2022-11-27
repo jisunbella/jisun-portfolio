@@ -35,6 +35,11 @@
   font-size: x-large;
 }
 
+.skill__details:hover, .skill__details-icon:hover {
+  color: var(--color-primary);
+  transition: var(--transition);
+}
+
 /* ==================== Media Queries (Medium Devices) ==================== */
 @media screen and (max-width: 1024px) {
 
