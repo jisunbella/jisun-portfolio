@@ -10,7 +10,7 @@
   /* height: 70vh; */
   overflow: hidden;
   /* border-radius: var(--border-radius); */
-  /* border: 1px solid var(--color-font-variant); */
+  border: 1px solid var(--color-black);
   transition: var(--transition);
 }
 
@@ -50,7 +50,13 @@
 
 /* ==================== Media Queries (Medium Devices) ==================== */
 @media screen and (max-width: 1024px) {
+  .portfolio__contents {
+    display: block;
+  }
 
+  .portfolio__content {
+    margin-bottom: 0.5rem;
+  }
 }
 
 /* ==================== Media Queries (Small Devices) ==================== */
