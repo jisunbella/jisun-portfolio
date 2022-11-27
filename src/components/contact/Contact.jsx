@@ -12,7 +12,7 @@ const Contact = () => {
       <div className="contact__content">
         <div>
           <MdOutlineEmail />
-          <div>jisun.bella.lee@gmail.com</div>
+          <a href='mailto:jisun.bella.lee@gmail.com'>jisun.bella.lee@gmail.com</a>
         </div>
         <div>
           <AiOutlinePhone />
