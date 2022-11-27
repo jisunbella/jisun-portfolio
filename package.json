@@ -1,7 +1,7 @@
 {
   "name": "jisun-portfolio",
   "version": "0.1.0",
-  "homepage": "http://jisun.portfolio.io/",
+  "homepage": " https://jisunbella.github.io/jisun-portfolio/",
   "private": true,
   "dependencies": {
     "@testing-library/jest-dom": "^5.16.5",
