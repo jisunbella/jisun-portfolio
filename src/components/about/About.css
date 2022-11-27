@@ -21,7 +21,6 @@
 }
 
 .about__career {
-  display: block;
   padding-top: 2rem;
   height: 10rem;
   margin: 0 auto;
@@ -62,4 +61,20 @@
   font-size: small;
   text-align: left;
   margin: 0.7rem 0;
+}
+
+
+/* ==================== Media Queries (Medium Devices) ==================== */
+@media screen and (max-width: 1024px) {
+  .about__career {
+    display: block;
+    margin-bottom: 13rem;
+  }
+}
+
+/* ==================== Media Queries (Small Devices) ==================== */
+@media screen and (max-width: 768px) {
+  .about__career {
+    margin-bottom: 30rem;
+  }
 }

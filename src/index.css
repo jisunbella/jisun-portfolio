@@ -128,3 +128,22 @@ a:hover {
   border-color: var(--color-btn-hover);
   transition: var(--transition);
 }
+
+
+/* ==================== Media Queries (Medium Devices) ==================== */
+@media screen and (max-width: 1024px) {
+  .container {
+    width: var(--container-width-md);
+  }
+
+  section {
+    margin-top: 5rem;
+  }
+}
+
+/* ==================== Media Queries (Small Devices) ==================== */
+@media screen and (max-width: 768px) {
+  .container {
+    width: var(--container-width-sm);
+  }
+}

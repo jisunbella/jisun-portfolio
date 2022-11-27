@@ -45,13 +45,8 @@
 
 /* ==================== Media Queries (Medium Devices) ==================== */
 @media screen and (max-width: 1024px) {
-  .container {
-    width: var(--container-width-md);
-  }
-
   .home__content {
     display: block;
-    margin-bottom: 4rem;
     gap: 3rem;
   }
 
@@ -75,10 +70,6 @@
 
 /* ==================== Media Queries (Small Devices) ==================== */
 @media screen and (max-width: 768px) {
-  .container {
-    width: var(--container-width-sm);
-  }
-
   .home__btn a {
     display: block;
   }
