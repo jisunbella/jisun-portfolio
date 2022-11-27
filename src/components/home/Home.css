@@ -93,6 +93,10 @@
   .home__btn {
     font-size: 2vw;
   }
+
+  #home {
+    padding-bottom: 0;
+  }
 }
 
 

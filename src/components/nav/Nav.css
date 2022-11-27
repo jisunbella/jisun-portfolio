@@ -78,6 +78,10 @@ nav a img {
     align-items: center;
   }
 
+  .menu {
+    font-size: 0.9rem;
+  }
+
   .logo, .menu, .social {
     margin: 0;
   }

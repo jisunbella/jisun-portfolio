@@ -146,4 +146,8 @@ a:hover {
   .container {
     width: var(--container-width-sm);
   }
+
+  .title {
+    font-size: 1.3rem;
+  }
 }
