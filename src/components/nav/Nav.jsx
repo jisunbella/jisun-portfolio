@@ -21,22 +21,22 @@ const Nav = () => {
           href="#about"
           onClick={() => { setActiveNav('#about') }}
           className={activeNav === '#about' ? 'active' : ''}
-        >About</a>
+        >ABOUT</a>
         <a
           href="#skill"
           onClick={() => { setActiveNav('#skill') }}
           className={activeNav === '#skill' ? 'active' : ''}
-        >Skill</a>
+        >SKILL</a>
         <a
           href="#portfolio"
           onClick={() => { setActiveNav('#portfolio') }}
           className={activeNav === '#portfolio' ? 'active' : ''}
-        >Project</a>
+        >PROJECT</a>
         <a
           href="#contact"
           onClick={() => { setActiveNav('#contact') }}
           className={activeNav === '#contact' ? 'active' : ''}
-        >Contact</a>
+        >CONTACT</a>
       </div>
       <div className="social">
         <a href="https://www.linkedin.com/in/jisunbella/" target="_blank"><BsLinkedin /></a>

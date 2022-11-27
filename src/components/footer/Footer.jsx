@@ -4,7 +4,7 @@ import './Footer.css'
 const Footer = () => {
   return (
     <footer>
-      <div className='footer__content'>2022 Jisun Lee - All rights reserved</div>
+      <div className='footer__content'>© 2022 JISUN LEE, ALL RIGHTS RESERVED</div>
     </footer>
   )
 }
