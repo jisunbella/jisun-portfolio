@@ -46,6 +46,7 @@
 
 .about__career-position {
   font-size: small;
+  font-weight: 500;
   margin-bottom: 0.5rem;
 }
 
@@ -63,7 +64,6 @@
   margin: 0.7rem 0;
 }
 
-
 /* ==================== Media Queries (Medium Devices) ==================== */
 @media screen and (max-width: 1024px) {
   .about__career {
@@ -74,6 +74,12 @@
 
 /* ==================== Media Queries (Small Devices) ==================== */
 @media screen and (max-width: 768px) {
+  .about__career {
+    margin-bottom: 15rem;
+  }
+}
+
+@media screen and (max-width: 450px) {
   .about__career {
     margin-bottom: 30rem;
   }

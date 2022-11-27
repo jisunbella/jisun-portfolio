@@ -46,3 +46,13 @@
 .portfolio__content:hover .portfolio__desc {
   display: block;
 }
+
+/* ==================== Media Queries (Medium Devices) ==================== */
+@media screen and (max-width: 1024px) {
+
+}
+
+/* ==================== Media Queries (Small Devices) ==================== */
+@media screen and (max-width: 768px) {
+
+}

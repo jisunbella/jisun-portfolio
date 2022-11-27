@@ -1,6 +1,36 @@
 .contact__content {
   display: grid;
   grid-template-columns: repeat(4, 1fr);
-  gap: 2rem;
+  gap: 1rem;
   margin: 8rem;
+}
+
+.contact__content-element {
+  margin-bottom: 2rem;
+}
+
+.contact__content-element a {
+  color: var(--color-font);
+  margin: 0 auto;
+}
+
+.contact__content-element a:hover {
+  color: var(--color-primary);
+}
+
+.contact__content-logo {
+  font-size: xx-large;
+}
+
+/* ==================== Media Queries (Medium Devices) ==================== */
+@media screen and (max-width: 1024px) {
+  .contact__content {
+    display: block;
+    margin: 0 auto;
+  }
+}
+
+/* ==================== Media Queries (Small Devices) ==================== */
+@media screen and (max-width: 768px) {
+
 }

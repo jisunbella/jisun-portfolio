@@ -14,7 +14,7 @@ const Skill = () => {
       <h3 className='title'>SKILL</h3>
       <div className='skill__content'>
         <div className='skill__article'>
-          <h3>Front End</h3>
+          <h3 className='skill__article-title'>FRONT END</h3>
           <div className="skill__content-logo">
             <article className="skill__details">
               <IoLogoHtml5 className='skill__details-icon' />
@@ -67,7 +67,7 @@ const Skill = () => {
           </div>
         </div>
         <div className='skill__article'>
-          <h3>Back End</h3>
+          <h3 className='skill__article-title'>BACK END</h3>
           <div className="skill__content-logo">
             <article className="skill__details">
               <SiCsharp className='skill__details-icon' />
@@ -108,7 +108,7 @@ const Skill = () => {
           </div>
         </div>
         <div className='skill__article'>
-          <h3>ETC</h3>
+          <h3 className='skill__article-title'>ETC</h3>
           <div className="skill__content-logo">
             <article className="skill__details">
               <AiFillGithub className='skill__details-icon' />

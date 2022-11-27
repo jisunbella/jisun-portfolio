@@ -10,20 +10,20 @@ const Contact = () => {
     <section id='contact' className='container contact__container'>
       <h3 className='title'>CONTACT</h3>
       <div className="contact__content">
-        <div>
-          <MdOutlineEmail />
-          <a href='mailto:jisun.bella.lee@gmail.com'>jisun.bella.lee@gmail.com</a>
+        <div className='contact__content-element'>
+          <MdOutlineEmail className='contact__content-logo' />
+          <div><a href='mailto:jisun.bella.lee@gmail.com'>jisun.bella.lee@gmail.com</a></div>
         </div>
-        <div>
-          <AiOutlinePhone />
+        <div className='contact__content-element'>
+          <AiOutlinePhone className='contact__content-logo' />
           <div>0466 117 227</div>
         </div>
-        <div>
-          <RiLinkedinBoxFill />
+        <div className='contact__content-element'>
+          <RiLinkedinBoxFill className='contact__content-logo' />
           <div><a href="https://www.linkedin.com/in/jisunbella/" target="_blank">jisunbella</a></div>
         </div>
-        <div>
-          <FaGithubAlt />
+        <div className='contact__content-element'>
+          <FaGithubAlt className='contact__content-logo' />
           <div><a href="https://github.com/jisunbella" target="_blank">jisunbella</a></div>
         </div>
       </div>
