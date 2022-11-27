@@ -33,7 +33,7 @@ const data = [
     title: 'Server Monitoring Website',
     imgSrc: [artPortalMain, artPortalLogin, artPortalSearch],
     category: 'work',
-    desc: 'Solution for monitoring LDAP Server and Exchange Server and saving logs and data',
+    desc: 'Solution for monitoring AD Server and Exchange Server and saving logs and data',
     stack: 'HTML ・ CSS ・ JavaScript ・ jQuery ・ C# ・ .Net Core ・ PowerShell ・ SignalR ・ RabbitMQ ・ SQL Server'
   },
   {
