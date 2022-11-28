@@ -6,6 +6,7 @@ import artPortalSearch from '../../assets/artportal/artPortal-search.png'
 import dmiMain from '../../assets/dmi/dmi-main.png'
 import dmiCategory from '../../assets/dmi/dmi-category.png'
 import dmiDetail from '../../assets/dmi/dmi-detail.png'
+import cnrBoard from '../../assets/cnr/cnr-board.png'
 import ftscMain from '../../assets/ftsc/ftsc-main.png'
 import ftscLogin from '../../assets/ftsc/ftsc-login.png'
 import ftscSignUp from '../../assets/ftsc/ftsc-signup.png'
@@ -44,16 +45,16 @@ const data = [
     desc: 'E-commerce website for selling hydrogen drones and battery',
     stack: 'HTML ・ CSS ・ Vue.js ・ Nuxt.js ・ C# ・ .Net Core ・ SQL Server'
   },
-  // {
-  //   id: 5,
-  //   title: 'Admin Websites',
-  //   imgSrc: [],
-  //   category: 'work',
-  //   desc: 'A solution for admin dashboards and saving logs and data',
-  //   stack: 'HTML ・ CSS ・ Vue.js ・ Nuxt.js ・ C# ・ .Net Core ・ SQL Server'
-  // },
   {
     id: 5,
+    title: 'Admin Websites',
+    imgSrc: [cnrBoard],
+    category: 'work',
+    desc: 'Website for admin dashboards and saving logs and data',
+    stack: 'HTML ・ CSS ・ Vue.js ・ Nuxt.js ・ C# ・ .Net Core ・ SQL Server'
+  },
+  {
+    id: 6,
     title: 'Website for Questions and Answers',
     imgSrc: [ftscMain, ftscLogin, ftscSignUp, ftscBoard],
     category: 'work',
