@@ -1,6 +1,6 @@
 {
   "files": {
-    "main.css": "/jisun-portfolio/static/css/main.1e96a57d.css",
+    "main.css": "/jisun-portfolio/static/css/main.12b0f56e.css",
     "main.js": "/jisun-portfolio/static/js/main.2045c290.js",
     "static/js/787.afdd399a.chunk.js": "/jisun-portfolio/static/js/787.afdd399a.chunk.js",
     "static/media/dmi-category.png": "/jisun-portfolio/static/media/dmi-category.84416c79c74c8dbce92f.png",
@@ -21,12 +21,12 @@
     "static/media/artPortal-login.png": "/jisun-portfolio/static/media/artPortal-login.2dd9795d14e14b70d251.png",
     "static/media/acorn-logo.png": "/jisun-portfolio/static/media/acorn-logo.2fe7ee728bf1962df13f.png",
     "index.html": "/jisun-portfolio/index.html",
-    "main.1e96a57d.css.map": "/jisun-portfolio/static/css/main.1e96a57d.css.map",
+    "main.12b0f56e.css.map": "/jisun-portfolio/static/css/main.12b0f56e.css.map",
     "main.2045c290.js.map": "/jisun-portfolio/static/js/main.2045c290.js.map",
     "787.afdd399a.chunk.js.map": "/jisun-portfolio/static/js/787.afdd399a.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.1e96a57d.css",
+    "static/css/main.12b0f56e.css",
     "static/js/main.2045c290.js"
   ]
 }
