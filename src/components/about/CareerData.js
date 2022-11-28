@@ -23,7 +23,7 @@ const data = [
     period: 'JAN 2019 - JUN 2019',
     location: 'Seoul, South Korea',
     position: 'Certificate of Computer Programming',
-    desc1: 'Learned HTML, CSS, JavaScript, React.js, Java, and MySQL from Acorn Academy for 6 months.',
+    desc1: 'Learned HTML, CSS, JavaScript, React.js, Java, and MySQL for 6 months.',
     desc2: 'Created a website for a team project that is for searching and rating restaurants using HTML, CSS, JavaScript, Java, Spring Framework, and MySQL.'
   },
 ];
