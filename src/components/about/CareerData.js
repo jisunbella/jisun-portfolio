@@ -12,7 +12,7 @@ const data = [
     location: 'Seoul, South Korea',
     position: 'Junior Web Developer, Full-time',
     desc1: 'Developed and contributed to 6+ projects for 3 years.',
-    desc2: 'Full stack development experience with JavaScript, Vue.js, Nuxt.js, and ASP.Net. I was in charge of both the development and the deployment solutions on the client\'s site.'
+    desc2: 'Full stack development experience with JavaScript, Vue.js, Nuxt.js, and ASP.Net. Be in charge of both the development and the deployment of the solutions on the client\'s site.'
   },
   {
     id: 2,
