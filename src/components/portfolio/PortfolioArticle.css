@@ -25,23 +25,27 @@
   display: none;
   margin-top: 4rem;
   height: 13rem;
+  padding: 1rem;
 }
 
 .portfolio__desc h4, .portfolio__desc p {
   margin-top: 1rem;
-  color: var(--color-white);
+  color: var(--color-font);
 }
 
 .portfolio__content:hover {
-  background: #434343;
+  /* background: var(--color-white); */
   /* opacity: 0.8; */
   transform: translateY(0px);
   cursor: pointer;
   transition: var(--transition);
+  /* border-color: var(--color-black); */
+  border-color: transparent;
 }
 
 .portfolio__content:hover img {
   display: none;
+  transition: var(--transition);
 }
 
 .portfolio__content:hover .portfolio__desc {
