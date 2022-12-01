@@ -1,7 +1,7 @@
 {
   "files": {
-    "main.css": "/jisun-portfolio/static/css/main.12b0f56e.css",
-    "main.js": "/jisun-portfolio/static/js/main.2045c290.js",
+    "main.css": "/jisun-portfolio/static/css/main.dac99b7d.css",
+    "main.js": "/jisun-portfolio/static/js/main.8b315032.js",
     "static/js/787.afdd399a.chunk.js": "/jisun-portfolio/static/js/787.afdd399a.chunk.js",
     "static/media/dmi-category.png": "/jisun-portfolio/static/media/dmi-category.84416c79c74c8dbce92f.png",
     "static/media/jisun.png": "/jisun-portfolio/static/media/jisun.349dfd8598b7232c530c.png",
@@ -9,6 +9,7 @@
     "static/media/dmi-detail.png": "/jisun-portfolio/static/media/dmi-detail.4056b7d95da344e3dd51.png",
     "static/media/lightandsalt.png": "/jisun-portfolio/static/media/lightandsalt.bca519681643fff4ac32.png",
     "static/media/eagleeye-main.png": "/jisun-portfolio/static/media/eagleeye-main.ea94620459aeda784009.png",
+    "static/media/cnr-board.png": "/jisun-portfolio/static/media/cnr-board.848afd5eeb5fcbf221cc.png",
     "static/media/jisun-about.png": "/jisun-portfolio/static/media/jisun-about.3106b18b17fb015eff9b.png",
     "static/media/artPortal-search.png": "/jisun-portfolio/static/media/artPortal-search.e01b4e9511f2350f39aa.png",
     "static/media/artPortal-main.png": "/jisun-portfolio/static/media/artPortal-main.4f87d797fac82a0aed8d.png",
@@ -21,12 +22,12 @@
     "static/media/artPortal-login.png": "/jisun-portfolio/static/media/artPortal-login.2dd9795d14e14b70d251.png",
     "static/media/acorn-logo.png": "/jisun-portfolio/static/media/acorn-logo.2fe7ee728bf1962df13f.png",
     "index.html": "/jisun-portfolio/index.html",
-    "main.12b0f56e.css.map": "/jisun-portfolio/static/css/main.12b0f56e.css.map",
-    "main.2045c290.js.map": "/jisun-portfolio/static/js/main.2045c290.js.map",
+    "main.dac99b7d.css.map": "/jisun-portfolio/static/css/main.dac99b7d.css.map",
+    "main.8b315032.js.map": "/jisun-portfolio/static/js/main.8b315032.js.map",
     "787.afdd399a.chunk.js.map": "/jisun-portfolio/static/js/787.afdd399a.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.12b0f56e.css",
-    "static/js/main.2045c290.js"
+    "static/css/main.dac99b7d.css",
+    "static/js/main.8b315032.js"
   ]
 }
