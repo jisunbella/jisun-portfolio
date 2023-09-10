@@ -39,8 +39,8 @@ html {
 }
 
 body {
-  /* font-family: 'Montserrat', sans-serif; */
-  font-family: 'Poppins', sans-serif;
+  font-family: 'Montserrat', sans-serif;
+  /* font-family: 'Poppins', sans-serif; */
   background-color: var(--color-bg);
   color: var(--color-font);
 }
