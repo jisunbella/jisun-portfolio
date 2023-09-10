@@ -1,34 +1,26 @@
 import React from 'react'
 import './Contact.css'
-import { MdOutlineEmail } from 'react-icons/md'
-import { AiOutlinePhone } from 'react-icons/ai'
-import { RiLinkedinBoxFill } from 'react-icons/ri'
-import { FaGithubAlt } from 'react-icons/fa'
 
 const Contact = () => {
   return (
-    <section id='contact' className='container contact__container'>
+    <section id='contact' className='container'>
       <h3 className='title'>CONTACT</h3>
-      <div className="contact__content">
-        <div className='contact__content-element'>
-          <MdOutlineEmail className='contact__content-logo' />
-          <div><a href='mailto:jisun.bella.lee@gmail.com'>jisun.bella.lee@gmail.com</a></div>
+      <div className="contact-content">
+        <div className='contact-element'>
+          +82 10-9494-9980
         </div>
-        <div className='contact__content-element'>
-          <AiOutlinePhone className='contact__content-logo' />
-          <div>+82 10-9494-9980</div>
+        <div className='contact-element'>
+          <a href='mailto:easysun93@gmail.com'>easysun93@gmail.com</a>
         </div>
-        <div className='contact__content-element'>
-          <RiLinkedinBoxFill className='contact__content-logo' />
-          <div><a href="https://www.linkedin.com/in/jisunbella/" target="_blank">LinkedIn</a></div>
+        <div className='contact-element'>
+          <a href="https://www.linkedin.com/in/jisunbella/" target="_blank" rel="noreferrer">LinkedIn</a>
         </div>
-        <div className='contact__content-element'>
-          <FaGithubAlt className='contact__content-logo' />
-          <div><a href="https://github.com/jisunbella" target="_blank">GitHub</a></div>
+        <div className='contact-element'>
+          <a href="https://github.com/jisunbella" target="_blank" rel="noreferrer">GitHub</a>
         </div>
       </div>
     </section>
   )
-}
+};
 
 export default Contact

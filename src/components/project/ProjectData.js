@@ -13,47 +13,47 @@ const data = [
     image: [jshop],
     category: 'personal',
     desc: 'https://github.com/jisunbella/jshop',
-    stack: 'React.js, Redux, Hooks, GraphQL, Stripe, Firebase'
+    stack: 'React.js • Redux • Hooks • GraphQL • Stripe • Firebase'
   },
   {
     id: 2,
-    title: 'Website for Questions and Answers',
+    title: 'Admin Website',
     image: [ftscMain],
     category: 'work',
     desc: 'Website for clients and their customers for QnA',
-    stack: 'HTML, CSS, JavaScript, jQuery, C#, .Net Framework, SQL Server'
+    stack: 'HTML • CSS • JavaScript • jQuery • C# • .Net Framework • SQL Server'
   },
   {
     id: 3,
-    title: 'Admin Websites',
+    title: 'Admin Website',
     image: [cnrBoard],
     category: 'work',
     desc: 'Website for admin dashboards and saving logs and data',
-    stack: 'HTML, CSS, Vue.js, Nuxt.js, C#, .Net Core, SQL Server'
+    stack: 'HTML • CSS • Vue.js • Nuxt.js • C# • .Net Core • SQL Server'
   },
   {
     id: 4,
-    title: 'E-Commerce Website for Drone',
+    title: 'E-Commerce',
     image: [dmiDetail],
     category: 'work',
     desc: 'E-commerce website for selling hydrogen drones and battery',
-    stack: 'HTML, CSS, Vue.js, Nuxt.js, C#, .Net Core, SQL Server'
+    stack: 'HTML • CSS • Vue.js • Nuxt.js • C# • .Net Core • SQL Server'
   },
   {
     id: 5,
-    title: 'Server Monitoring Website',
+    title: 'Server Monitoring',
     image: [artPortalMain],
     category: 'work',
     desc: 'Solution for monitoring AD Server and Exchange Server and saving logs and data',
-    stack: 'HTML, CSS, JavaScript, jQuery, C#, .Net Core, PowerShell, SignalR, RabbitMQ, SQL Server'
+    stack: 'HTML • CSS • JavaScript • jQuery • C# • .Net Core • PowerShell • SignalR • RabbitMQ • SQL Server'
   },
   {
     id: 6,
-    title: 'Drone Monitoring Solution',
+    title: 'Drone Tracking',
     image: [eagleEyeMain],
     category: 'work',
     desc: 'Solution for tracking and monitoring drones at Incheon International Airport',
-    stack: 'HTML, CSS, JavaScript, jQuery, OpenLayers, Leaflet, C#, .Net Core, SignalR, RabbitMQ, SQL Server'
+    stack: 'HTML • CSS • JavaScript • jQuery • OpenLayers • Leaflet • C# • .Net Core • SignalR • RabbitMQ • SQL Server'
   },
   {
     id: 7,
@@ -61,7 +61,7 @@ const data = [
     image: [lightAndSaltMain],
     category: 'personal',
     desc: 'Website for finding and rating restaurants',
-    stack: 'HTML, CSS, JavaScript, jQuery, Bootstrap, Java, Spring Framework, MySQL'
+    stack: 'HTML • CSS • JavaScript • jQuery • Bootstrap • Java • Spring Framework • MySQL'
   },
 ]
 

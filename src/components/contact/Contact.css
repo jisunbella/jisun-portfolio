@@ -1,33 +1,23 @@
-.contact__content {
-  display: grid;
-  grid-template-columns: repeat(4, 1fr);
-  gap: 1rem;
-  margin: 8rem;
+
+.contact-element {
+  text-align: center;
 }
 
-.contact__content-element {
-  margin-bottom: 2rem;
+a {
+  text-decoration: none;
 }
 
-.contact__content-element a {
-  color: var(--color-font);
-  margin: 0 auto;
+a:link, a:visited {
+  color: #000;
 }
 
-.contact__content-element a:hover {
+.contact-element a:hover {
   color: var(--color-primary);
-}
-
-.contact__content-logo {
-  font-size: x-large;
 }
 
 /* ==================== Media Queries (Medium Devices) ==================== */
 @media screen and (max-width: 1024px) {
-  .contact__content {
-    display: block;
-    margin: 0 auto;
-  }
+
 }
 
 /* ==================== Media Queries (Small Devices) ==================== */

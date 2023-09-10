@@ -13,7 +13,8 @@ const Project = () => {
   return (
     <section id='project' className='container project-container'>
       <h3 className='title'>PROJECT</h3>
-      <div className='project-category'>
+      {/*
+        <div className='project-category'>
         <button
           onClick={() => { setActiveCat('all') }}
           className={activeCat === 'all' ? 'btn active' : 'btn'}
@@ -27,7 +28,7 @@ const Project = () => {
           className={activeCat === 'personal' ? 'btn active' : 'btn'}
         >Personal</button>
       </div>
-
+  */}
       <div className='project-content'>
         <CardSlider data={data} />
       </div>

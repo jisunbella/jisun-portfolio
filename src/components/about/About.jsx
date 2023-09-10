@@ -1,14 +1,12 @@
 import React from 'react'
 import './About.css'
-import me from '../../assets/jisun.jpeg'
 
 const About = () => {
   return (
     <section id='about'>
       <div className='container'>
         <h4 className='title'>About</h4>
-        <div className='row'>
-          <div className='col-md-7'>
+          <div className='about-content'>
             <p>
               Hi there, I'm Jisun. I enjoy building user-friendly, readable, and creative products from start to end. 
               Constantly studying and self-development. Love challenges and following trends.
@@ -19,11 +17,7 @@ const About = () => {
               I'm interested in React.js, so self-studying React.js constantly.
             </p>
           </div>
-          <div className='about-img col-md-5'>
-            <img src={me} alt='Me' />
-          </div>
         </div>
-      </div>  
     </section>
   )
 }

@@ -12,29 +12,17 @@ const Career = () => {
             <p className='about-desc'>Web Developer<br/>2019.08 ~ 2022.06</p>
           </div>
           <div className='col-md-7'>
-            <ul className='about-detail'>
-              <li>Developed admin pages & solutions
-                <ul>
-                  <li>- stack: JavaScript, Vue.js, Next.js, C#, ASP.NET, MSSQL</li>
-                </ul>
-              </li>
-                
-              <li>Created drone tracking & monitoring solutions
-                <ul>
-                  <li>- stack: JavaScript, C#, ASP.NET, MSSQL, RabbitMQ</li>
-                </ul>
-              </li>
-
-              <li>Developed E-commerce website
-                <ul>
-                  <li>- stack: Vue.js, Nuxt.js, C#, ASP.NET, MSSQL</li>
-                </ul>
-              </li>
+            <ul className='about-detail about-detail-work'>
+              <li>Developed the drone tracking project by drawing tracks of drones with real-time data with Incheon International Airport.</li>
+              <li>Developed solutions and improved the performance of solutions, and experienced in code reviews and testing.</li>
+              <li>Using clean and efficient codes.</li>
+              <li>Collaborated with the Designers and QA</li>
+              <li><strong>Main Stack: JavaScript • Vue • Nuxt • jQuery • C# • .NET • MSSQL</strong></li>
             </ul>
           </div>
         </div>
 
-        <h4 className='title'>Education & Study</h4>
+        <h4 className='title'>Education</h4>
         <div className='row'>
           <div className='col-md-5'>
             <h4 className='about-place'>Zero To Mastery Academy</h4>
@@ -42,8 +30,8 @@ const Career = () => {
           </div>
           <div className='col-md-7'>
             <ul className='about-detail'>
-              <li>Studied basic of React.js and TypeScript</li>
-              <li>Developed an E-commerce website using React.js, Redux, TypeScript, Firebase</li>
+              <li>Studied basic of React.js and TypeScript.</li>
+              <li>Developed an E-commerce website using React.js, Redux, TypeScript, Firebase.</li>
             </ul>
           </div>
         </div>
@@ -54,8 +42,8 @@ const Career = () => {
           </div>
           <div className='col-md-7'>
             <ul className='about-detail'>
-              <li>Studied HTML, CSS, JavaScript, Java, and MySQL</li>
-              <li>Team project: developed a website for finding restaurants</li>
+              <li>Studied HTML, CSS, JavaScript, Java, and MySQL.</li>
+              <li>Team project: developed a website for finding restaurants.</li>
             </ul>
           </div>
         </div>
@@ -66,7 +54,7 @@ const Career = () => {
           </div>
           <div className='col-md-7'>
             <ul className='about-detail'>
-              <li>Studied about logistics, economics, finance, and business</li>
+              <li>Studied about logistics, economics, finance, and business.</li>
             </ul>
           </div>
         </div>

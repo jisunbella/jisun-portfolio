@@ -16,6 +16,14 @@
   font-weight: 300;
 }
 
+.about-detail strong {
+  font-weight: 600;
+}
+
+.about-detail-work li {
+  padding: 5px 0;
+}
+
 /* ==================== Media Queries (Medium Devices) ==================== */
 @media screen and (max-width: 1024px) {
   .about__content {
