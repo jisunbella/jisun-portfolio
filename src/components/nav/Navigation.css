@@ -1,0 +1,28 @@
+nav {
+  font-size: 13px;
+}
+
+nav .container {
+  padding: 0;
+}
+
+.nav-content {
+  margin: 0 auto;
+  box-sizing: border-box;
+  width: 100%;
+  padding: 20px 0 !important;
+  font-size: 18px;
+}
+
+.nav-name {
+  font-size: 24px;
+  font-weight: bolder;
+}
+
+.nav-btns {
+  margin-right: 25px;
+}
+
+.nav-btn:hover {
+  cursor: pointer;
+}

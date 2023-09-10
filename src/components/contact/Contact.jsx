@@ -16,15 +16,15 @@ const Contact = () => {
         </div>
         <div className='contact__content-element'>
           <AiOutlinePhone className='contact__content-logo' />
-          <div>0466 117 227</div>
+          <div>+82 10-9494-9980</div>
         </div>
         <div className='contact__content-element'>
           <RiLinkedinBoxFill className='contact__content-logo' />
-          <div><a href="https://www.linkedin.com/in/jisunbella/" target="_blank">jisunbella</a></div>
+          <div><a href="https://www.linkedin.com/in/jisunbella/" target="_blank">LinkedIn</a></div>
         </div>
         <div className='contact__content-element'>
           <FaGithubAlt className='contact__content-logo' />
-          <div><a href="https://github.com/jisunbella" target="_blank">jisunbella</a></div>
+          <div><a href="https://github.com/jisunbella" target="_blank">GitHub</a></div>
         </div>
       </div>
     </section>

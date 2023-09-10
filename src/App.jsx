@@ -1,9 +1,10 @@
 import './App.css';
 import Home from './components/home/Home';
-import Nav from './components/nav/Nav';
-import About from './components/about/About'
+import Navigation from './components/nav/Navigation';
+import About from './components/About/About';
+import Career from './components/career/Career'
 import Skill from './components/skill/Skill'
-import Portfolio from './components/portfolio/Portfolio'
+import Project from './components/project/Project';
 import Contact from './components/contact/Contact'
 import Footer from './components/footer/Footer'
 
@@ -11,12 +12,13 @@ import Footer from './components/footer/Footer'
 function App() {
   return (
     <div className="App">
-      <Nav />
+      <Navigation />
       <Home />
       <About />
+      <Career />
       <Skill />
-      <Portfolio />
-      <Contact />
+      <Project />
+      {/*<Contact />*/}
       <Footer />
     </div>
   );
