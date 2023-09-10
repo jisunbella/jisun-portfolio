@@ -1,33 +1,23 @@
 {
   "files": {
-    "main.css": "/jisun-portfolio/static/css/main.dac99b7d.css",
-    "main.js": "/jisun-portfolio/static/js/main.8b315032.js",
+    "main.css": "/jisun-portfolio/static/css/main.34b76346.css",
+    "main.js": "/jisun-portfolio/static/js/main.873e8518.js",
     "static/js/787.afdd399a.chunk.js": "/jisun-portfolio/static/js/787.afdd399a.chunk.js",
-    "static/media/dmi-category.png": "/jisun-portfolio/static/media/dmi-category.84416c79c74c8dbce92f.png",
-    "static/media/jisun.png": "/jisun-portfolio/static/media/jisun.349dfd8598b7232c530c.png",
-    "static/media/dmi-main.png": "/jisun-portfolio/static/media/dmi-main.3f204d63b911ed360f59.png",
-    "static/media/dmi-detail.png": "/jisun-portfolio/static/media/dmi-detail.4056b7d95da344e3dd51.png",
+    "static/media/jshop.png": "/jisun-portfolio/static/media/jshop.ca3472a3eee01bc5921b.png",
     "static/media/lightandsalt.png": "/jisun-portfolio/static/media/lightandsalt.bca519681643fff4ac32.png",
     "static/media/eagleeye-main.png": "/jisun-portfolio/static/media/eagleeye-main.ea94620459aeda784009.png",
     "static/media/cnr-board.png": "/jisun-portfolio/static/media/cnr-board.848afd5eeb5fcbf221cc.png",
-    "static/media/jisun-about.png": "/jisun-portfolio/static/media/jisun-about.3106b18b17fb015eff9b.png",
-    "static/media/artPortal-search.png": "/jisun-portfolio/static/media/artPortal-search.e01b4e9511f2350f39aa.png",
+    "static/media/dmi-detail.png": "/jisun-portfolio/static/media/dmi-detail.77fcc46f7e82818b8a60.png",
+    "static/media/jisun.jpeg": "/jisun-portfolio/static/media/jisun.09ab0115052804884bdd.jpeg",
     "static/media/artPortal-main.png": "/jisun-portfolio/static/media/artPortal-main.4f87d797fac82a0aed8d.png",
     "static/media/ftsc-main.png": "/jisun-portfolio/static/media/ftsc-main.8df6b38c8b58c7ac8814.png",
-    "static/media/ftsc-signup.png": "/jisun-portfolio/static/media/ftsc-signup.fcac77389f43f160776c.png",
-    "static/media/ftsc-board.png": "/jisun-portfolio/static/media/ftsc-board.c1c5871c836cb589971e.png",
-    "static/media/ftsc-login.png": "/jisun-portfolio/static/media/ftsc-login.e7b58417be358890313e.png",
-    "static/media/JisunLee_CV.pdf": "/jisun-portfolio/static/media/JisunLee_CV.360ad905ffb53dded003.pdf",
-    "static/media/logo.png": "/jisun-portfolio/static/media/logo.203ab7800345f2060899.png",
-    "static/media/artPortal-login.png": "/jisun-portfolio/static/media/artPortal-login.2dd9795d14e14b70d251.png",
-    "static/media/acorn-logo.png": "/jisun-portfolio/static/media/acorn-logo.2fe7ee728bf1962df13f.png",
     "index.html": "/jisun-portfolio/index.html",
-    "main.dac99b7d.css.map": "/jisun-portfolio/static/css/main.dac99b7d.css.map",
-    "main.8b315032.js.map": "/jisun-portfolio/static/js/main.8b315032.js.map",
+    "main.34b76346.css.map": "/jisun-portfolio/static/css/main.34b76346.css.map",
+    "main.873e8518.js.map": "/jisun-portfolio/static/js/main.873e8518.js.map",
     "787.afdd399a.chunk.js.map": "/jisun-portfolio/static/js/787.afdd399a.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.dac99b7d.css",
-    "static/js/main.8b315032.js"
+    "static/css/main.34b76346.css",
+    "static/js/main.873e8518.js"
   ]
 }
