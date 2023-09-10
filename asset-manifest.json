@@ -1,23 +1,22 @@
 {
   "files": {
-    "main.css": "/jisun-portfolio/static/css/main.10bc6350.css",
-    "main.js": "/jisun-portfolio/static/js/main.46558d95.js",
+    "main.css": "/jisun-portfolio/static/css/main.065d2c2b.css",
+    "main.js": "/jisun-portfolio/static/js/main.0590a8b5.js",
     "static/js/787.afdd399a.chunk.js": "/jisun-portfolio/static/js/787.afdd399a.chunk.js",
     "static/media/jshop.png": "/jisun-portfolio/static/media/jshop.ca3472a3eee01bc5921b.png",
     "static/media/lightandsalt.png": "/jisun-portfolio/static/media/lightandsalt.bca519681643fff4ac32.png",
     "static/media/eagleeye-main.png": "/jisun-portfolio/static/media/eagleeye-main.ea94620459aeda784009.png",
     "static/media/cnr-board.png": "/jisun-portfolio/static/media/cnr-board.848afd5eeb5fcbf221cc.png",
     "static/media/dmi-detail.png": "/jisun-portfolio/static/media/dmi-detail.77fcc46f7e82818b8a60.png",
-    "static/media/jisun.jpeg": "/jisun-portfolio/static/media/jisun.09ab0115052804884bdd.jpeg",
     "static/media/artPortal-main.png": "/jisun-portfolio/static/media/artPortal-main.4f87d797fac82a0aed8d.png",
     "static/media/ftsc-main.png": "/jisun-portfolio/static/media/ftsc-main.8df6b38c8b58c7ac8814.png",
     "index.html": "/jisun-portfolio/index.html",
-    "main.10bc6350.css.map": "/jisun-portfolio/static/css/main.10bc6350.css.map",
-    "main.46558d95.js.map": "/jisun-portfolio/static/js/main.46558d95.js.map",
+    "main.065d2c2b.css.map": "/jisun-portfolio/static/css/main.065d2c2b.css.map",
+    "main.0590a8b5.js.map": "/jisun-portfolio/static/js/main.0590a8b5.js.map",
     "787.afdd399a.chunk.js.map": "/jisun-portfolio/static/js/787.afdd399a.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.10bc6350.css",
-    "static/js/main.46558d95.js"
+    "static/css/main.065d2c2b.css",
+    "static/js/main.0590a8b5.js"
   ]
 }
