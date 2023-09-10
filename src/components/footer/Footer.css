@@ -1,7 +1,7 @@
 .footer__content {
-  background-color: #333333;
-  height: 100px;
-  color: var(--color-white);
-  padding: 5rem 0;
+  /* background-color: #333333; */
+  height: 50px;
+  padding: 2.5rem 5rem;
   font-size: small;
+  text-align: center;
 }
