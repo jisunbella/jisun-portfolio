@@ -12,9 +12,26 @@ const Skill = () => {
       <div className='container'>
         <h4 className='title'>Skill</h4>
         <div className='skill-content'>
-          <h1><RiJavascriptFill /> <BiLogoReact /> <BiLogoVuejs /> <TbBrandNuxt /> <BiLogoJquery /> <BiLogoTypescript /></h1>
-          <h1><SiCsharp /> <SiDotnet /> <BiLogoJava /> <BiLogoNodejs /></h1>
-          <h1><SiMicrosoftsqlserver /> <DiMysql /> <BiLogoGithub /></h1>
+          <div className='skill-front row'> 
+            <div className='col-md-2 skill-icon'><RiJavascriptFill /></div>
+            <div className='col-md-2 skill-icon'><BiLogoReact /></div>
+            <div className='col-md-2 skill-icon'><BiLogoVuejs /></div>
+            <div className='col-md-2 skill-icon'><TbBrandNuxt /></div>
+            <div className='col-md-2 skill-icon'><BiLogoJquery /></div>
+            <div className='col-md-2 skill-icon'><BiLogoTypescript /></div>
+          </div>
+          <div className='skill-back row'>
+            <div className='col-md-3 skill-icon'><SiCsharp /></div>
+            <div className='col-md-3 skill-icon'><SiDotnet /></div>
+            <div className='col-md-3 skill-icon'><BiLogoJava /></div>
+            <div className='col-md-3 skill-icon'><BiLogoNodejs /></div>
+          </div>
+          <div className='skill-others row'>
+            <div className='col-md-4 skill-icon'><SiMicrosoftsqlserver /></div>
+            <div className='col-md-4 skill-icon'><DiMysql /></div>
+            <div className='col-md-4 skill-icon'><BiLogoGithub /></div>
+          </div>
+
         </div>
       </div>
     </section>

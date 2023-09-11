@@ -1,20 +1,28 @@
 .skill-content {
   text-align: center;
   height: 100vh;
+  font-size: 80px;
 }
 
-.skill-content h1 {
-  font-size: 80px;
+.skill-front, .skill-back, .skill-others {
+  transition: all 1.2s;
+}
+
+.skill-icon:hover {
+  color: var(--color-primary);
+  transform: scale(1.2);
 }
 
 /* ==================== Media Queries (Medium Devices) ==================== */
 @media screen and (max-width: 1024px) {
-
+  .skill-content {
+    font-size: 50px;
+  }
 }
 
 /* ==================== Media Queries (Small Devices) ==================== */
 @media screen and (max-width: 768px) {
   .skill-content {
-    display: block;
+    font-size: 30px;
   }
 }
