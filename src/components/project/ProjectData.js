@@ -12,15 +12,16 @@ const data = [
     title: 'JShop',
     image: [jshop],
     category: 'personal',
-    desc: 'https://github.com/jisunbella/jshop',
-    stack: 'React.js • Redux • Hooks • GraphQL • Stripe • Firebase'
+    desc: 'E-commerce website using React and Redux.',
+    stack: 'React.js • Redux • Hooks • GraphQL • Stripe • Firebase',
+    github: 'https://github.com/jisunbella/jshop'
   },
   {
     id: 2,
     title: 'Admin Website',
     image: [ftscMain],
     category: 'work',
-    desc: 'Website for clients and their customers for QnA',
+    desc: 'Website for clients and their customers for QnA.',
     stack: 'HTML • CSS • JavaScript • jQuery • C# • .Net Framework • SQL Server'
   },
   {
@@ -28,7 +29,7 @@ const data = [
     title: 'Admin Website',
     image: [cnrBoard],
     category: 'work',
-    desc: 'Website for admin dashboards and saving logs and data',
+    desc: 'Website for admin dashboards and saving logs and data.',
     stack: 'HTML • CSS • Vue.js • Nuxt.js • C# • .Net Core • SQL Server'
   },
   {
@@ -36,7 +37,7 @@ const data = [
     title: 'E-Commerce',
     image: [dmiDetail],
     category: 'work',
-    desc: 'E-commerce website for selling hydrogen drones and battery',
+    desc: 'E-commerce website for selling hydrogen drones and battery.',
     stack: 'HTML • CSS • Vue.js • Nuxt.js • C# • .Net Core • SQL Server'
   },
   {
@@ -44,7 +45,7 @@ const data = [
     title: 'Server Monitoring',
     image: [artPortalMain],
     category: 'work',
-    desc: 'Solution for monitoring AD Server and Exchange Server and saving logs and data',
+    desc: 'Solution for monitoring AD Server and Exchange Server and saving logs and data.',
     stack: 'HTML • CSS • JavaScript • jQuery • C# • .Net Core • RabbitMQ • SQL Server'
   },
   {
@@ -52,7 +53,7 @@ const data = [
     title: 'Drone Tracking',
     image: [eagleEyeMain],
     category: 'work',
-    desc: 'Solution for tracking and monitoring drones at Incheon International Airport',
+    desc: 'Solution for tracking and monitoring drones at Incheon International Airport.',
     stack: 'HTML • CSS • JavaScript • jQuery • C# • .Net Core • RabbitMQ • SQL Server'
   },
   {
@@ -60,7 +61,7 @@ const data = [
     title: 'Light and Salt',
     image: [lightAndSaltMain],
     category: 'personal',
-    desc: 'Website for finding and rating restaurants',
+    desc: 'Website for finding and rating restaurants.',
     stack: 'HTML • CSS • JavaScript • jQuery • Bootstrap • Java • Spring Framework • MySQL'
   },
 ]

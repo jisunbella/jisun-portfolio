@@ -44,8 +44,8 @@ const Card = ({ image, title, desc, stack, category }) => {
       </div>
       <div className='project-desc'>
         <h5>{title}</h5>
-        <div>{stack}</div>
         <p>{desc}</p>
+        <div>{stack}</div>
         {/*<a href="https://github.com/jisunbella/jshop" target='_blank' rel='noreferrer'>GitHub</a>*/}
       </div>
     </div>
