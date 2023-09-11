@@ -45,7 +45,7 @@ const data = [
     image: [artPortalMain],
     category: 'work',
     desc: 'Solution for monitoring AD Server and Exchange Server and saving logs and data',
-    stack: 'HTML • CSS • JavaScript • jQuery • C# • .Net Core • PowerShell • SignalR • RabbitMQ • SQL Server'
+    stack: 'HTML • CSS • JavaScript • jQuery • C# • .Net Core • RabbitMQ • SQL Server'
   },
   {
     id: 6,
@@ -53,7 +53,7 @@ const data = [
     image: [eagleEyeMain],
     category: 'work',
     desc: 'Solution for tracking and monitoring drones at Incheon International Airport',
-    stack: 'HTML • CSS • JavaScript • jQuery • OpenLayers • Leaflet • C# • .Net Core • SignalR • RabbitMQ • SQL Server'
+    stack: 'HTML • CSS • JavaScript • jQuery • C# • .Net Core • RabbitMQ • SQL Server'
   },
   {
     id: 7,
