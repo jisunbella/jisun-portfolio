@@ -137,6 +137,7 @@ a:hover {
 @media screen and (max-width: 1024px) {
   .container {
     width: var(--container-width-md);
+    padding: 30px;
   }
 
   section {
@@ -148,6 +149,7 @@ a:hover {
 @media screen and (max-width: 768px) {
   .container {
     width: var(--container-width-sm);
+    padding: 30px;
   }
 
   .title {
