@@ -13,10 +13,12 @@ const Career = () => {
           </div>
           <div className='col-md-7'>
             <ul className='about-detail about-detail-work'>
+              <li>Created Admin websites for company's solutions.</li>
               <li>Developed the drone tracking project by drawing tracks of drones with real-time data with Incheon International Airport.</li>
+              <li>Converted Java to C# code and upgrade the website.</li>
               <li>Developed solutions and improved the performance of solutions, and experienced in code reviews and testing.</li>
-              <li>Using clean and efficient codes.</li>
               <li>Collaborated with the Designers and QA</li>
+              <li>Using clean and efficient codes.</li>
               <li><strong>Main Stack: JavaScript • Vue • Nuxt • jQuery • C# • .NET • MSSQL</strong></li>
             </ul>
           </div>

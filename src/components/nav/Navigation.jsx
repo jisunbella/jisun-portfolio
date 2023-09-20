@@ -4,7 +4,7 @@ import { BsLinkedin, BsGithub } from 'react-icons/bs'
 import { Navbar, Container, Nav } from 'react-bootstrap';
 
 const Navigation = () => {
-
+  
   return (
     <nav className="sticky-top">
       <Navbar bg="white" data-bs-theme="white" className='nav-content container-fluid'>
