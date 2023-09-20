@@ -8,7 +8,7 @@ import data from './ProjectData';
 
 
 const Project = () => {
-  const [activeCat, setActiveCat] = useState('all');
+  //const [activeCat, setActiveCat] = useState('all');
 
   return (
     <section id='project' className='container project-container'>
