@@ -1,7 +1,7 @@
 {
   "files": {
     "main.css": "/jisun-portfolio/static/css/main.ac97f2de.css",
-    "main.js": "/jisun-portfolio/static/js/main.912f5049.js",
+    "main.js": "/jisun-portfolio/static/js/main.ff026e2d.js",
     "static/js/787.afdd399a.chunk.js": "/jisun-portfolio/static/js/787.afdd399a.chunk.js",
     "static/media/jshop.png": "/jisun-portfolio/static/media/jshop.ca3472a3eee01bc5921b.png",
     "static/media/lightandsalt.png": "/jisun-portfolio/static/media/lightandsalt.bca519681643fff4ac32.png",
@@ -12,11 +12,11 @@
     "static/media/ftsc-main.png": "/jisun-portfolio/static/media/ftsc-main.8df6b38c8b58c7ac8814.png",
     "index.html": "/jisun-portfolio/index.html",
     "main.ac97f2de.css.map": "/jisun-portfolio/static/css/main.ac97f2de.css.map",
-    "main.912f5049.js.map": "/jisun-portfolio/static/js/main.912f5049.js.map",
+    "main.ff026e2d.js.map": "/jisun-portfolio/static/js/main.ff026e2d.js.map",
     "787.afdd399a.chunk.js.map": "/jisun-portfolio/static/js/787.afdd399a.chunk.js.map"
   },
   "entrypoints": [
     "static/css/main.ac97f2de.css",
-    "static/js/main.912f5049.js"
+    "static/js/main.ff026e2d.js"
   ]
 }
