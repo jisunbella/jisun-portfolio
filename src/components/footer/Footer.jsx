@@ -1,12 +1,9 @@
-import React from 'react'
-import './Footer.css'
-
 const Footer = () => {
   return (
-    <footer>
-      <div className='footer__content'>© 2023 JISUN LEE, ALL RIGHTS RESERVED</div>
+    <footer className="text-center p-4">
+      <div>© 2025 JISUN LEE, ALL RIGHTS RESERVED</div>
     </footer>
-  )
-}
+  );
+};
 
-export default Footer
+export default Footer;
