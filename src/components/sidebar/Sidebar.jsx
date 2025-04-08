@@ -1,5 +1,3 @@
-// components/Sidebar.tsx
-
 const MainIcon = () => (
   <svg
     xmlns="http://www.w3.org/2000/svg"
@@ -104,22 +102,33 @@ const navItems = [
 
 export default function Sidebar({ activeHash }) {
   return (
-    <aside className="fixed left-4 top-1/3 hidden lg:flex flex-col items-center space-y-6 z-50">
-      {navItems.map((item) => (
-        <div key={item.id} className="group relative">
-          <a
-            href={item.id}
-            className={`transition-colors ${
-              activeHash === item.id ? 'text-blue-500' : 'text-gray-600'
-            } hover:text-blue-500`}
-          >
-            {item.icon}
-          </a>
-          <span className="absolute left-10 top-1/2 -translate-y-1/2 bg-gray-900 text-white text-xs px-2 py-1 rounded opacity-0 group-hover:opacity-100 transition-opacity duration-300 whitespace-nowrap">
-            {item.label}
-          </span>
-        </div>
-      ))}
+    <aside className="fixed left-0 top-0 h-full w-4/12 hidden bg-white lg:flex flex-col space-y-6 p-20 z-50">
+      <div>
+        <h1 className="text-6xl font-bold text-gray-800 mb-2">Jisun Lee</h1>
+        <p className="text-xl text-gray-600 mb-8">Frontend Developer</p>
+        <p className="text-sm text-gray-600 mb-8">
+          I focus on user-centered interfaces & <br />
+          performance-optimized architecture
+        </p>
+
+        <nav className="space-y-6 pt-16">
+          {navItems.map((item) => (
+            <div key={item.id} className="group relative">
+              <a
+                href={item.id}
+                className={`transition-colors ${
+                  activeHash === item.id ? 'text-blue-500' : 'text-gray-600'
+                } hover:text-blue-500`}
+              >
+                {item.icon}
+              </a>
+              <span className="absolute left-10 top-1/2 -translate-y-1/2 bg-gray-900 text-white text-xs px-2 py-1 rounded opacity-0 group-hover:opacity-100 transition-opacity duration-300 whitespace-nowrap">
+                {item.label}
+              </span>
+            </div>
+          ))}
+        </nav>
+      </div>
     </aside>
   );
 }
