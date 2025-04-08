@@ -1,13 +1,8 @@
 import './App.css';
-import Main from './components/main/Main';
-import About from './components/about/About';
-import Careers from './components/careers/Careers';
-import Projects from './components/projects/Projects';
-import Contact from './components/contact/Contact';
-import Footer from './components/footer/Footer';
 
 import NavBar from './components/navbar/NavBar';
 import Sidebar from './components/sidebar/Sidebar';
+import Container from './components/Container';
 
 import useActiveSection from './hooks/useActiveSection';
 
@@ -17,12 +12,7 @@ function App() {
     <div className="App">
       <NavBar />
       <Sidebar activeHash={activeHash} />
-      <Main />
-      <About />
-      {/*<Careers />*/}
-      <Projects />
-      <Contact />
-      <Footer />
+      <Container />
     </div>
   );
 }
