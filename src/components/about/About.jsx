@@ -1,12 +1,12 @@
 import { useState } from 'react';
 
 import Skill from './Skill';
+import Education from './Education';
+import Etc from './Etc';
 
 import SkillImg from '../../assets/skill.png';
 import EducationImg from '../../assets/education.png';
 import EtcImg from '../../assets/more.png';
-import Education from './Education';
-import Etc from './Etc';
 
 const About = () => {
   const [selectedItem, setSelectedItem] = useState('skill');
