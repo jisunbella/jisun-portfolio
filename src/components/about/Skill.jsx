@@ -1,10 +1,15 @@
 const Skill = () => {
   return (
-    <div className="bg-blue-100 bg-opacity-50 p-12 rounded-lg animate-fade-in h-96">
+    <div>
       <h5>Skills</h5>
-      <span>React.js</span>
-      <span>Next.js</span>
-      <span>TypeScript</span>
+      Frontend: React, Next.js, TypeScript, Zustand, jquery, JavaScript <br />
+      Backend: C#, ASP.NET, ASP.NET Core, SQL Server, Jenkins, Github, Gitlab,
+      Swagger, Restful API,
+      {/*
+        <span>React.js</span>
+        <span>Next.js</span>
+        <span>TypeScript</span>
+        */}
     </div>
   );
 };

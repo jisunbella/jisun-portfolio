@@ -12,6 +12,10 @@ module.exports = {
       animation: {
         'fade-in': 'fadeIn 1s ease-out forwards',
       },
+      fontFamily: {
+        korean: ['UnDinaru', 'sans-serif'],
+        english: ['Montserrat', 'sans-serif'],
+      },
     },
   },
   plugins: [],

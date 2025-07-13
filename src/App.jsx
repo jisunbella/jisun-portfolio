@@ -1,7 +1,7 @@
 import './App.css';
 
 import NavBar from './components/navbar/NavBar';
-import Sidebar from './components/sidebar/Sidebar';
+import SideBar from './components/sidebar/SideBar';
 import Container from './components/Container';
 
 import useActiveSection from './hooks/useActiveSection';
@@ -11,7 +11,7 @@ function App() {
   return (
     <div className="App">
       <NavBar />
-      <Sidebar activeHash={activeHash} />
+      <SideBar activeHash={activeHash} />
       <Container />
     </div>
   );

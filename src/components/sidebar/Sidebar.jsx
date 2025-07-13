@@ -1,3 +1,5 @@
+import jisunImage from '../../assets/images/IMG_0204.JPG';
+
 const MainIcon = () => (
   <svg
     xmlns="http://www.w3.org/2000/svg"
@@ -100,15 +102,34 @@ const navItems = [
   { id: '#contact', label: 'Contact', icon: <MailIcon /> },
 ];
 
-export default function Sidebar({ activeHash }) {
+export default function SideBar({ activeHash }) {
   return (
     <aside className="fixed left-0 top-0 h-full w-4/12 hidden bg-white lg:flex flex-col space-y-6 p-20 z-50">
-      <div>
-        <h1 className="text-6xl font-bold text-gray-800 mb-2">Jisun Lee</h1>
-        <p className="text-xl text-gray-600 mb-8">Frontend Developer</p>
-        <p className="text-sm text-gray-600 mb-8">
-          I focus on user-centered interfaces & <br />
-          performance-optimized architecture
+      <div className="rounded-full px-6 py-4 flex items-center justify-between">
+        {/* 왼쪽: 프로필 이미지와 텍스트 */}
+        <div className="flex items-center space-x-3">
+          {/* 프로필 이미지 */}
+          <div className="w-12 h-12 rounded-full overflow-hidden">
+            <img
+              src={jisunImage}
+              alt="it's me"
+              width={48}
+              height={48}
+              className="w-full h-full object-cover"
+            />
+          </div>
+
+          {/* 이름과 아이디 */}
+          <div className="flex flex-col">
+            <span className="font-bold text-gray-900 text-lg">이지선</span>
+            <span className="text-gray-600 text-sm">@Jr_Front_End</span>
+          </div>
+        </div>
+      </div>
+      <div className="w-full max-w-md mx-auto px-6 py-4">
+        <p className="text-sm text-gray-600 mb-4">
+          I create what I believe in — with code <br />
+          that’s clean, clear, and purposeful.
         </p>
 
         <nav className="space-y-6 pt-16">

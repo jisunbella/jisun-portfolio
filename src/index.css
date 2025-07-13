@@ -1,3 +1,39 @@
-@import 'tailwindcss/preflight'; /* 기본 스타일 초기화 */
-@import 'tailwindcss/components'; /* 컴포넌트 스타일 */
-@import 'tailwindcss/utilities'; /* 유틸리티 클래스 */
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@layer theme, base, components, utilities;
+
+@import 'tailwindcss/theme.css' layer(theme);
+@import 'tailwindcss/preflight.css' layer(base);
+@import 'tailwindcss/utilities.css' layer(utilities);
+
+/* @font-face {
+  font-family: 'UnDinaru';
+  src: url('/src/assets/fonts/UnDinaru.ttf') format('woff2');
+  font-weight: 400;
+  font-style: normal;
+  unicode-range: U+AC00-D7A3;
+} */
+
+@font-face {
+  font-family: 'Montserrat';
+  src: url('https://fonts.googleapis.com/css2?family=Montserrat:wght@100..900&display=swap');
+  font-weight: 400;
+  font-style: normal;
+  unicode-range: U+0020-007F;
+}
+
+@font-face {
+  font-family: 'Noto Sans KR';
+  src: url('https://fonts.googleapis.com/css2?family=Noto+Sans+KR:wght@100..900&display=swap');
+  font-weight: 400;
+  font-style: normal;
+  unicode-range: U+AC00-D7A3;
+}
+
+@layer base {
+  body {
+    font-family: 'Noto Sans KR', 'Montserrat', sans-serif;
+  }
+}
